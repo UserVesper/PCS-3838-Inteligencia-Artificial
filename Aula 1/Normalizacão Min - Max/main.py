@@ -11,7 +11,12 @@ for i in range(n):
 #Leitura da amostra x
 x = np.array(list(map(int, input().split())))
 
-#Implemente aqui a normalização antes de exibir a amostra
+
+minimos = np.min(X, axis=0)
+
+maximos = np.max(X, axis=0)
+
+x = (x - minimos) / (maximos - minimos)
 
 for x_i in x.flatten():
     print(int(x_i), end=' ')
