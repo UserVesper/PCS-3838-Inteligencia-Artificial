@@ -4,12 +4,11 @@
 
 Construa um programa que receba dois inteiros `t` e `n`.
 
-* `t ∈ {0,1}` indica o tipo da tarefa:
+- `t ∈ {0,1}` indica o tipo da tarefa:
+  - `t = 0` → regressão
+  - `t = 1` → classificação
 
-  * `t = 0` → regressão
-  * `t = 1` → classificação
-
-* `n` indica o número de amostras preditas pelo modelo.
+- `n` indica o número de amostras preditas pelo modelo.
 
 Restrição:
 
@@ -19,16 +18,16 @@ Restrição:
 
 Em seguida, leia `n` pares de valores inteiros representando:
 
-* o valor predito pelo modelo (`ŷ`, com `0 ≤ ŷ ≤ 100`)
-* o valor verdadeiro (`y`, com `0 ≤ y ≤ 100`)
+- o valor predito pelo modelo (`ŷ`, com `0 ≤ ŷ ≤ 100`)
+- o valor verdadeiro (`y`, com `0 ≤ y ≤ 100`)
 
 de cada amostra.
 
 Ao final:
 
-* No caso de **regressão**, o programa deve exibir, apenas a parte inteira, o valor da função de perda **Mean Squared Error (MSE)** vista em aula.
+- No caso de **regressão**, o programa deve exibir, apenas a parte inteira, o valor da função de perda **Mean Squared Error (MSE)** vista em aula.
 
-* No caso de **classificação**, o programa deve exibir a quantidade de amostras classificadas corretamente.
+- No caso de **classificação**, o programa deve exibir a quantidade de amostras classificadas corretamente.
 
 ---
 
@@ -40,7 +39,7 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Entrada**
 
-```text id="e3ux9x"
+```text
 0 3
 40 15
 72 22
@@ -49,7 +48,7 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Saída**
 
-```text id="8d72kz"
+```text
 1548
 ```
 
@@ -59,7 +58,7 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Entrada**
 
-```text id="f1q2wl"
+```text
 1 3
 0 0
 1 3
@@ -68,6 +67,6 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Saída**
 
-```text id="ww65zq"
+```text
 1
 ```

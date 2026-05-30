@@ -17,7 +17,7 @@ Por fim, o programa recebe uma nova amostra `x ∈ R¹ˣᵐ` e deve exibir, apen
 
 Esta técnica normaliza cada feature `x̃ᵢ` em termos de:
 
-```text id="vg0k95"
+```text
 x̃ᵢ = (xᵢ - min(Xᵢ)) / (max(Xᵢ) - min(Xᵢ))
 ```
 
@@ -33,7 +33,7 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Entrada**
 
-```text id="4yx5ko"
+```text
 2 3
 40 15 72
 22 43 82
@@ -42,7 +42,7 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Saída**
 
-```text id="m8tshq"
+```text
 2 0 -3
 ```
 
@@ -52,7 +52,7 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Entrada**
 
-```text id="e7p9o0"
+```text
 3 4
 40 15 72 22
 43 82 75 7
@@ -62,6 +62,6 @@ As tabelas abaixo apresentam exemplos de entradas e as respectivas saídas do pr
 
 **Saída**
 
-```text id="7x41qm"
+```text
 5 0 0 0
 ```
